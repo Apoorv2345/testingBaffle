@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="first">Hello Apoorv!</div>
+    <div id="second">Hello Apoorv!</div>
+    <div id="third">Hello Apoorv!</div>
+    <div id="fourth">Hello Apoorv!</div>
+    <div id="fifth">Hello Apoorv!</div>
+    <div id="sixth">Hello Apoorv!</div>
+    <div id="seventh">Hello Apoorv!</div>
+    <div id="eight">Hello Apoorv!</div>
+    <script type="text/javascript" src="./baffle.min.js"></script>
+
+    <script type="text/javascript">
+        var a = baffle(document.getElementById('first')),
+            b = baffle(document.getElementById('second')),
+            c = baffle(document.getElementById('third')),
+            d = baffle(document.getElementById('fourth'), {
+                characters: 'abcd',
+                speed: 75
+            }),
+            e = baffle(document.getElementById('fifth')),
+            f = baffle(document.getElementById('sixth')),
+            g = baffle(document.getElementById('seventh')),
+            h = baffle(document.getElementById('eight'));
+
+        // Start obfuscating
+        a.start();
+        // a.stop(1000);
+
+        b.start();
+        b.reveal(1000);
+
+        b.text(text => 'Hi Mom!');
+
+        //Chainable
+        c.start().set({ speed: 100 }).text(text => 'Hi dad!').reveal(1000);
+
+        d.once();
+
+        e.once();
+    </script>
+</body>
+
+</html>

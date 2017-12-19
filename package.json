@@ -1,0 +1,26 @@
+{
+  "name": "testing-baffle",
+  "version": "1.0.0",
+  "description": "testing obfruscation using baffle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apoorv2345/testingBaffle.git"
+  },
+  "keywords": [
+    "baffle",
+    "implementaion"
+  ],
+  "author": "Apoorv2345",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apoorv2345/testingBaffle/issues"
+  },
+  "homepage": "https://github.com/Apoorv2345/testingBaffle#readme",
+  "dependencies": {
+    "baffle": "^0.3.6"
+  }
+}

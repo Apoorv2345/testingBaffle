@@ -20,7 +20,5 @@
     "url": "https://github.com/Apoorv2345/testingBaffle/issues"
   },
   "homepage": "https://github.com/Apoorv2345/testingBaffle#readme",
-  "dependencies": {
-    "baffle": "^0.3.6"
-  }
+  "dependencies": {}
 }
